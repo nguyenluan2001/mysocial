@@ -1,2 +1,0 @@
-# mysocial
-Begin app
