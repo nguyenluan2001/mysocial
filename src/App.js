@@ -10,10 +10,10 @@ import { getMainDefinition } from '@apollo/client/utilities';
 import AuthProvider from "./services/context/Auth";
 import PrivateRoute from "./components/PrivateRoute";
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://still-lowlands-91428.herokuapp.com/graphql',
 });
 const wsLink = new WebSocketLink({
-  uri: 'ws://localhost:5000/graphql',
+  uri: 'ws://still-lowlands-91428.herokuapp.com/graphql',
   options: {
     reconnect: true
   }
